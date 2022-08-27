@@ -1,0 +1,43 @@
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.calc{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 4px 4px gray;
+}
+.display{
+    display: flex;
+    justify-content: end;
+    color:white;
+    padding: 15px;
+    font-size: 1.5rem;
+    height: 28px;
+}
+button{
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: darkgrey;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.zero{
+    width: 104px;
+}
+.operator{
+    background-color: orange;
+}
+.row{
+    padding: 5px;
+}
